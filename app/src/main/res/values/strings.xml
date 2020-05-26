@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Alcool ou Gasolina</string>
+    <string name="alcoolGasolina">Álcool ou Gasolina</string>
+    <string name="saiba_a_melhor_op_o_para_o_abastecimento_do_seu_carro">Saiba a melhor opção para o abastecimento do seu carro.</string>
+    <string name="resultado">Resultado</string>
+    <string name="pre_o_da_gasolina_ex_4_90">Preço da Gasolina. Ex: 4.90</string>
+    <string name="calcular">Calcular</string>
+    <string name="pre_o_do_lcool_ex_3_90">Preço do Álcool. Ex: 3.90</string>
+</resources>

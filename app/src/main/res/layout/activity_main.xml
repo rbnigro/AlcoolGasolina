@@ -21,8 +21,8 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="353dp"
-        android:layout_height="42dp"
+        android:layout_width="349dp"
+        android:layout_height="59dp"
         android:layout_marginTop="40dp"
         android:text="@string/saiba_a_melhor_op_o_para_o_abastecimento_do_seu_carro"
         android:textAlignment="center"
@@ -35,7 +35,7 @@
         android:id="@+id/edtAlcool"
         android:layout_width="360dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="32dp"
         android:ems="10"
         android:hint="Preço do Álcool. Ex: 3.90"
         android:inputType="numberDecimal"

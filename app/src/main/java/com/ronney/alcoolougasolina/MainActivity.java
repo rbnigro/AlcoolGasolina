@@ -45,6 +45,8 @@ public class MainActivity extends AppCompatActivity {
             } else {
                 this.sRetorno = "USE ÁLCOOL";
             }
+
+            this.sRetorno += " fator [" + this.divisao + "] - referência = 0.7";
         } else {
             sRetorno = "Números Inválidos";
         }

@@ -6,7 +6,6 @@ import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -40,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
     private void calculaPreco() {
         if (!processValues()) {
 
-            if (this.divisao >= 0.7) {
+            if (this.divisao >= 0.65) {
                 this.sRetorno = "USE GASOLINA";
             } else {
                 this.sRetorno = "USE ÁLCOOL";
@@ -71,10 +70,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void geraToast(String mensagem) {
         Context context = getApplicationContext();
-        CharSequence text = mensagem;
         int duration = Toast.LENGTH_SHORT;
 
-        Toast toast = Toast.makeText(context, text, duration);
+        Toast toast = Toast.makeText(context, mensagem, duration);
         toast.show();
     }
 }
